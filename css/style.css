@@ -1,0 +1,35 @@
+#inner{
+    width: 700px;
+    margin: auto;
+    margin: 50px;
+    text-align: center;
+}
+
+.searchbox{
+    position: relative;
+    width: 100%;
+}
+.searchbox .searchbar{
+    width: 40%;
+    padding-left: 25px;
+    padding-right: 60px;
+    border-radius: 30px;
+    outline: none;
+    height: 44px;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border-radius: 24px;
+}
+.searchbox .searchbar:focus{
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px;
+}
+.searchbox .icons{
+    position: absolute;
+    top: 0;
+    left: 510px;
+    width: 100%;
+    padding: 8px 20px;
+    pointer-events: none;
+}
+
